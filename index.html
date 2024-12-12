@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Song Search & Playlist Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <body>
+        <header>
+            <h1>Spotify Song Search & Playlist Recommender</h1>
+        </header>
+        <main>
+            
+            <a href="index.html"><img src= "favicon.png"></a> <!-- A-tag to create home button -->
+            <section class="search-container">
+                <input type="text" id="search-input" placeholder="Search for songs, artists, or genres..." />
+                <button id="search-button">Search</button>
+            </section>
+            <section class="results-container" id="results-container">
+                <!-- API search results will appear here -->
+            </section>
+            <section class="recommendation-container">
+                <button id="recommend-button">Random Mood Recommendation</button>
+            </section>
+        </main>
+        <footer>
+            <a href="https://www.spotify.com" target="_blank">Go to Spotify</a>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    </html>
